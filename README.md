@@ -76,7 +76,7 @@ Após criar sua conta, siga estes passos para clonar o repositório:
 - Uso de métricas adequadas para avaliar o desempenho do modelo.
 - Otimização do modelo para melhorar a acurácia e eficiência.
 - Implementação de boas práticas de codificação e organização do projeto.
-- **Observações Adicionais**
+**Observações Adicionais**
 Os candidatos poderão utilizar como referência os exemplos e materiais dos cursos de Fundamentos de IA para Sistemas Embarcados, Sistemas de Visão Computacional e Otimização de Modelos em Sistemas Embarcados. Esses recursos podem fornecer insights valiosos e orientações para a realização desta etapa prática.
 
 ### 4. Instruções de Entrega
