@@ -44,5 +44,5 @@ Os candidatos poderão utilizar como referência os exemplos e materiais dos cur
    - Lista de bibliotecas de terceiros utilizadas.
    - O que você melhoraria se tivesse mais tempo.
    - Quais requisitos obrigatórios que não foram entregues.
-4. Após finalizar, submeta o link do repositório do GitHub (ex. https://github.com/<seuusuariogithub>/<nomedorepositorio>).
+4. Após finalizar, submeta o link do repositório do GitHub (ex. https://github.com/seuusuariogithub/nomedorepositorio).
 5. Participe do curso de fundamentos em Machine Learning e visão computacional para aprimorar ainda mais suas habilidades nesta área.
