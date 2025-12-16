@@ -167,6 +167,38 @@ seu-repositorio/
 ```
 
 ---
+## ⚠️ Restrições e Considerações de Engenharia
+
+Este desafio é avaliado automaticamente por meio de um pipeline de
+integração contínua (CI), executado em um ambiente controlado e
+limitado de recursos computacionais.
+
+Você **não precisa conhecer GitHub Actions** para realizar o desafio.
+No entanto, é importante respeitar algumas diretrizes para garantir
+que seu código execute corretamente nesse ambiente.
+
+### Diretrizes para o Modelo
+
+- O modelo deve ser uma **CNN simples**, adequada para aplicações de **Edge AI**.
+- Evite arquiteturas muito profundas ou complexas.
+- Recomenda-se utilizar **até 3 camadas convolucionais**.
+- Não utilize modelos pré-treinados.
+- O número de épocas deve ser **limitado** (exemplo: até 5 épocas).
+
+### Diretrizes de Execução
+
+- O tempo total de treinamento deve ser reduzido, para não exceder o tempo máximo de execução do pipeline automático.
+- O modelo deve ser treinado utilizando apenas CPU.
+- O código deve ser executável do início ao fim sem intervenção manual.
+
+> 💡 **Importante:**  
+> O objetivo do desafio não é obter a maior acurácia possível, mas sim
+> demonstrar a capacidade de projetar um modelo eficiente, compatível
+> com ambientes automatizados e com restrições de recursos, como é
+> comum em aplicações reais de Edge AI.
+
+
+---
 
 ## 📚 Material de Apoio
 
