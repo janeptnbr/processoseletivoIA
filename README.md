@@ -126,7 +126,7 @@ Será utilizado o dataset **MNIST**, composto por imagens de dígitos manuscrito
 Implemente no arquivo `train_model.py` um código que realize:
 
 - Carregamento do dataset MNIST via TensorFlow
-- Construção de uma rede neural para classificação
+- Construção e treinamento de um modelo de classificação baseado em Redes Neurais Convolucionais (CNN), utilizando camadas Conv2D e MaxPooling.
 - Treinamento do modelo
 - Exibição da **acurácia final** no terminal
 - Salvamento do modelo treinado no formato **Keras** (`.h5` ou `.keras`)
