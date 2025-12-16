@@ -259,6 +259,8 @@ git push origin main
 2. Verifique se o workflow foi executado com sucesso (✅)
 3. Em caso de erro (❌), consulte os logs, corrija e envie novamente
 
+<img width="819" height="374" alt="image" src="https://github.com/user-attachments/assets/118af2d2-a6bf-44ed-a0b6-fbcb0f59f16e" />
+
 ---
 
 ### 📎 Submissão Final
