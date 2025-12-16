@@ -16,7 +16,7 @@ Esta atividade tem como objetivo avaliar competências técnicas relacionadas a 
   - 📂 [Estrutura do Projeto](#-estrutura-do-projeto)
   - 📚 [Material de Apoio](#-material-de-apoio)
   - ⚖️ [Critérios de Avaliação](#️-critérios-de-avaliação)
-- 📤 [Passo 4 – Instruções de Entrega](#-passo-4-instruções-de-entrega)
+- 📤 [Passo 3 – Instruções de Entrega](#-passo-3-instruções-de-entrega)
   - 📝 [Relatório do Candidato](#-relatório-do-candidato)
 
 ---
@@ -233,7 +233,7 @@ A avaliação considerará:
 
 ---
 
-## 📤 Passo 4: Instruções de Entrega
+## 📤 Passo 3: Instruções de Entrega
 
 ### ✔️ Validação Local
 
