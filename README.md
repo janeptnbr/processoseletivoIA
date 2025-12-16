@@ -10,7 +10,7 @@ Esta atividade tem como objetivo avaliar competências técnicas relacionadas a 
 ## 📌 Navegação Rápida
 
 - 🏁 [Passo 0 – Antes de Tudo](#-passo-0-antes-de-tudo)
-- 🛠️ [Passo 1 – Preparação do Ambiente](#-passo-1-preparação-do-ambiente)
+- 🛠️ [Passo 1 – Preparação do Ambiente](#-ambiente)
 - 💻 [Passo 2 – O Desafio Técnico](#-passo-2-o-desafio-técnico)
 - 🎯 [Conjunto de Dados](#-conjunto-de-dados)
 - 📂 [Estrutura do Projeto](#-estrutura-do-projeto)
@@ -52,7 +52,7 @@ O **Git** é a ferramenta que permite versionar e enviar seu código para o GitH
 
 ---
 
-## 🛠️ Passo 1: Preparação do Ambiente
+## 🛠️ Passo 1: Ambiente
 
 Para desenvolver o desafio, você deverá criar uma cópia deste repositório e baixá-la para seu computador.
 
