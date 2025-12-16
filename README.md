@@ -60,14 +60,16 @@ Copie a URL no formato HTTPS
 
 No terminal (ou Git Bash), execute:
 
+  ```bash
 git clone https://github.com/SEU_USUARIO/nome-do-repositorio.git
 cd nome-do-repositorio
-  git --version
+git --version
 
 3️⃣ Instalação das Dependências
 
 Instale todas as bibliotecas necessárias para execução do projeto:
 
+```bash
 pip install -r requirements.txt
 
 
@@ -84,27 +86,27 @@ Será utilizado o dataset MNIST, composto por imagens de dígitos manuscritos de
 ✅ Requisitos Obrigatórios
 🧠 Etapa 1: Treinamento do Modelo (train_model.py)
 
-Implemente no arquivo train_model.py um código que realize:
+- Implemente no arquivo train_model.py um código que realize:
 
-Carregamento do dataset MNIST via TensorFlow
+- Carregamento do dataset MNIST via TensorFlow
 
-Construção e treinamento de um modelo de classificação (Rede Neural)
+- Construção e treinamento de um modelo de classificação (Rede Neural)
 
-Exibição da acurácia final no terminal
+- Exibição da acurácia final no terminal
 
-Salvamento do modelo treinado no formato Keras (.h5 ou .keras)
+- Salvamento do modelo treinado no formato Keras (.h5 ou .keras)
 
 ⚡ Etapa 2: Otimização do Modelo (optimize_model.py)
 
 No arquivo optimize_model.py, implemente:
 
-Carregamento do modelo treinado
+- Carregamento do modelo treinado
 
-Conversão do modelo para TensorFlow Lite (LiteRT – .tflite)
+- Conversão do modelo para TensorFlow Lite (LiteRT – .tflite)
 
-Aplicação de técnica de otimização, como:
+- Aplicação de técnica de otimização, como:
 
-Dynamic Range Quantization
+  - Dynamic Range Quantization
 
 O objetivo é reduzir o tamanho do modelo, mantendo eficiência para execução em Edge AI.
 
@@ -126,11 +128,11 @@ seu-repositorio/
 
 Os candidatos podem utilizar como referência os conteúdos abordados nos cursos da etapa anterior, incluindo:
 
-Fundamentos de IA para Sistemas Embarcados
+- Fundamentos de IA para Sistemas Embarcados
 
-Sistemas de Visão Computacional
+- Sistemas de Visão Computacional
 
-Otimização de Modelos em Sistemas Embarcados
+- Otimização de Modelos em Sistemas Embarcados
 
 Esses materiais fornecem conceitos, exemplos práticos e trechos de código relevantes para o desafio.
 
