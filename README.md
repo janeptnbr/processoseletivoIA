@@ -41,7 +41,7 @@ Caso ainda não possua familiaridade com o GitHub, siga **obrigatoriamente** as 
   ```bash
 
 
-## 🛠️ Passo 1 Preparação do Ambiente
+## 🛠️ Passo 1: Preparação do Ambiente
 
 Para desenvolver o desafio, é necessário criar uma cópia deste repositório em sua conta pessoal e baixá-lo para o seu computador.
 
