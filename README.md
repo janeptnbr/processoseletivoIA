@@ -52,7 +52,7 @@ O **Git** é a ferramenta que permite versionar e enviar seu código para o GitH
 
 ---
 
-## 🛠️ Passo 1: Ambiente
+## 🛠️ Passo 1: Preparação do Ambiente
 
 Para desenvolver o desafio, você deverá criar uma cópia deste repositório e baixá-la para seu computador.
 
