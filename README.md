@@ -209,7 +209,6 @@ Os cursos realizados na etapa anterior **devem ser utilizados como referência**
 ### 👁️ Sistemas de Visão Computacional Embarcada 
 
 ### ⚙️ Otimização de Modelos em Sistemas Embarcados
-Nome do cursoOtimização de Modelos em Sistemas Embarcados
 
 📌 *Os exemplos apresentados nesses cursos podem ser adaptados e reutilizados neste desafio.*
 
@@ -222,14 +221,11 @@ A avaliação considerará:
 - **Funcionalidade**  
   Execução correta dos scripts e geração dos arquivos `.h5` e `.tflite`.
 
-- **Machine Learning**  
-  Arquitetura do modelo, métricas e abordagem adotadas.
-
 - **Edge AI**  
-  Conversão correta para TensorFlow Lite e aplicação de otimização.
+  Conversão correta para formato .tflite e aplicação de técnica de otimização.
 
 - **Documentação**  
-  Preenchimento adequado do relatório.
+  Preenchimento adequado do relatório (README.md).
 
 ---
 
