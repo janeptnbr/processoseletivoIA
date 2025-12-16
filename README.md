@@ -12,12 +12,12 @@ Esta atividade tem como objetivo avaliar competências técnicas relacionadas a 
 - 🏁 [Passo 0 – Antes de Tudo](#-passo-0-antes-de-tudo)
 - 🛠️ [Passo 1 – Preparação do Ambiente](#-ambiente)
 - 💻 [Passo 2 – O Desafio Técnico](#-passo-2-o-desafio-técnico)
-- 🎯 [Conjunto de Dados](#-conjunto-de-dados)
-- 📂 [Estrutura do Projeto](#-estrutura-do-projeto)
-- 📚 [Material de Apoio](#-material-de-apoio)
-- ⚖️ [Critérios de Avaliação](#️-critérios-de-avaliação)
+  - 🎯 [Conjunto de Dados](#-conjunto-de-dados)
+  - 📂 [Estrutura do Projeto](#-estrutura-do-projeto)
+  - 📚 [Material de Apoio](#-material-de-apoio)
+  - ⚖️ [Critérios de Avaliação](#️-critérios-de-avaliação)
 - 📤 [Passo 4 – Instruções de Entrega](#-passo-4-instruções-de-entrega)
-- 📝 [Relatório do Candidato](#-relatório-do-candidato)
+  - 📝 [Relatório do Candidato](#-relatório-do-candidato)
 
 ---
 
