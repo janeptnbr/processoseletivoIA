@@ -1,81 +1,49 @@
-# Template Repositório IA do Processo Seletivo Intensivo Laboratório Maker
+# 🚀 Desafio Técnico: Processo Seletivo Laboratório Maker - Edge AI
 
-## Objetivo
+**Bem-vindo à etapa prática do processo seletivo!**
 
-O objetivo desta etapa do processo seletivo é avaliar as competências técnicas dos candidatos à etapa de Intensivo em Laboratório Maker. Neste teste prático, você será apresentado a um conjunto de dados relacionado à classificação de dígitos manuscritos (MNIST).
+O objetivo desta etapa é avaliar suas competências técnicas para o ingresso no **Laboratório Intensivo Maker**. Aqui, você aplicará os conhecimentos adquiridos nos cursos EAD para resolver um problema real de Visão Computacional, focando em treinamento de modelos e implantação em sistemas embarcados (Edge AI).
 
-Seu objetivo é realizar a classificação utilizando um modelo de Visão Computacional, exibindo a acurácia do modelo, salvando-o no formato Keras (.h5) e, em seguida, exportando-o para o formato otimizado LiteRT (TensorFlow Lite - TFLite).
+---
 
-## Sobre os dados
+🏁 **[Comece Aqui](#-passo-0-antes-de-tudo)** | 🛠 **[O Desafio](#-passo-2-o-desafio-técnico)** | 📂 **[Estrutura](#-estrutura-do-projeto)** | 📚 **[Referências](#-material-de-apoio)** | 📤 **[Entrega](#-passo-4-instruções-de-entrega)**
 
-O conjunto de dados definidos para este teste é o MNIST, que contém imagens de dígitos manuscritos (0-9). Este dataset faz parte da biblioteca do TensorFlow e será utilizado para treinar e avaliar seu modelo de classificação.
+---
 
-<img width="392" height="230" alt="image" src="https://github.com/user-attachments/assets/2e510ab2-22c4-4910-80bd-c84e975189f1" />
+## 🏁 Passo 0: Antes de Tudo
 
-Figura – Dataset MNIST
+Se você ainda não tem familiaridade com o GitHub, siga estes passos iniciais obrigatórios:
 
-## Requisitos
+1.  **Crie sua conta no GitHub**:
+    * Acesse [github.com](https://github.com/) e clique em "Sign up".
+    * Siga as instruções para criar sua conta gratuita.
+2.  **Instale o Git no seu computador**:
+    * Se estiver no Windows, baixe e instale o [Git Bash](https://git-scm.com/downloads).
+    * No Linux/Mac, verifique se já possui instalado via terminal (`git --version`).
 
-### Etapa 1: 
+---
 
-<img width="196" height="53" alt="image" src="https://github.com/user-attachments/assets/187e22a2-0a05-4f45-8db3-cd32eadb0ec4" />
+## 🛠 Passo 1: Preparando o Ambiente
 
-1. Carregar o dataset MNIST utilizando a biblioteca TensorFlow.
-2. Treinar um modelo de classificação de dígitos.
-3. Exibir a acurácia do modelo após o treinamento.
-4. Salvar o modelo treinado no formato Keras (.h5).
+Para trabalhar neste projeto, você precisará de uma cópia dele na sua conta pessoal.
 
-### Etapa 2: 
+### 1. O "Fork" (Bifurcação)
+1.  Olhe para o canto superior direito desta página.
+2.  Clique no botão **Fork**.
+3.  Isso criará uma cópia idêntica deste repositório no **seu** perfil do GitHub.
 
-1. Exportar o modelo treinado para o formato TFLite, utilizando uma otimização como o 'dynamic range'.
+### 2. O Clone (Baixar para seu computador)
+Agora, vamos baixar o código para sua máquina.
+1.  No **seu** repositório (o que você acabou de criar o Fork), clique no botão verde **<> Code**.
+2.  Copie a URL (HTTPS).
+3.  Abra seu terminal (ou Git Bash) e digite o comando abaixo (substituindo pela URL que você copiou):
 
-## Estrutura de Pastas
+```bash
+git clone [https://github.com/SEU_USUARIO/nome-do-repositorio.git](https://github.com/SEU_USUARIO/nome-do-repositorio.git)
+cd nome-do-repositorio
 
-A estrutura de pastas que você utilizará será semelhante a esta:
+### 3. Instalar Dependências
+Certifique-se de instalar as bibliotecas necessárias:
 
-<img width="189" height="245" alt="image" src="https://github.com/user-attachments/assets/3712a743-c669-45be-9b60-5982d7708010" />
-
-
-- **model.h5**: Modelo treinado no formato Keras.
-- **requirements.txt**: Lista de bibliotecas necessárias para o projeto.
-- **train_model.py**: Script para treinar o modelo.
-- **optimize_model.py**: Script para otimizar o modelo.
-- **model.tflite**: Modelo otimizado no formato TensorFlow Lite.
-- **.github**: Diretório para configurações do GitHub Actions, se necessário.
-
-## Instruções para Início
-
-### 1. Criar uma conta no GitHub
-
-- Acesse <a data-v-2acd734d="" href="https://github.com/" class="reference-btn" target="_blank">https://github.com/</a>e clique em "Sign up".
-- Siga as instruções para criar sua conta.
-
-### 2. Clonar este repositório
-
-Após criar sua conta, siga estes passos para clonar o repositório:
-
-1. No seu terminal ou prompt de comando, navegue até o diretório onde você deseja clonar o repositório.
-2. Execute o seguinte comando (substitua `<URL do repositório>` pela URL do repositório que você deseja clonar):
-   ```bash
-   git clone <URL do repositório>
-
-3. Navegue até a pasta do repositório clonado:
-   cd nome-do-repositorio
-
-### 3. Critérios de Avaliação
-- Escolha da biblioteca adequada para o treinamento do modelo.
-- Realização das etapas de treinamento e teste de forma correta.
-- Uso de métricas adequadas para avaliar o desempenho do modelo.
-- Otimização do modelo para melhorar a acurácia e eficiência.
-- Implementação de boas práticas de codificação e organização do projeto.
-**Observações Adicionais**
-Os candidatos poderão utilizar como referência os exemplos e materiais dos cursos de Fundamentos de IA para Sistemas Embarcados, Sistemas de Visão Computacional e Otimização de Modelos em Sistemas Embarcados. Esses recursos podem fornecer insights valiosos e orientações para a realização desta etapa prática.
-
-### 4. Instruções de Entrega
-- Crie um fork do repositório no seu GitHub.
-- Faça o push do código desenvolvido no seu GitHub.
-- Inclua um arquivo chamado README.md do projeto, explicando:
-   - Decisão da arquitetura utilizada.
-   - Lista de bibliotecas de terceiros utilizadas.
-   - Quais requisitos obrigatórios que não foram entregues.
-   - Após finalizar, submeta o link do repositório do GitHub (ex. https://github.com/seuusuariogithub/nomedorepositorio).
+```bash
+pip install -r requirements.txt
