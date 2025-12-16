@@ -69,6 +69,8 @@ Para desenvolver o desafio, você deverá criar uma cópia deste repositório e 
 
 ### 2️⃣ Clone do Repositório
 
+<img width="149" height="52" alt="image" src="https://github.com/user-attachments/assets/abbd331b-a005-4633-89c6-afd16acbe828" />
+
 Agora vamos baixar o projeto para o seu computador.
 
 1. No repositório do **seu Fork**, clique em **<> Code**
@@ -108,6 +110,8 @@ treinamento → salvamento → conversão → otimização.
 ## 🎯 Conjunto de Dados
 
 Será utilizado o dataset **MNIST**, composto por imagens de dígitos manuscritos de **0 a 9**.
+<img width="500" height="294" alt="image" src="https://github.com/user-attachments/assets/f323b4cc-d759-4e05-bb58-13e4d6dc7e5b" />
+
 
 ✔️ O dataset já está disponível na biblioteca **TensorFlow/Keras**, não sendo necessário download manual.
 
@@ -151,13 +155,15 @@ A estrutura e os nomes dos arquivos **não devem ser alterados**.
 
 ```plaintext
 seu-repositorio/
-├── .github/workflows/   # 🚫 Não alterar (correção automática)
-├── train_model.py       # ✏️ Treinamento do modelo
-├── optimize_model.py    # ✏️ Conversão e otimização
-├── requirements.txt     # 📄 Dependências
-├── model.h5             # 🤖 Modelo treinado (gerado)
-├── model.tflite         # ⚡ Modelo otimizado (gerado)
-└── README.md            # 📝 Relatório do candidato
+├── .github/
+│   └── workflows/
+│       └── ci.yml            # 🤖 Pipeline de correção automática (NÃO ALTERAR)
+├── train_model.py            # ✏️ Treinamento do modelo
+├── optimize_model.py         # ✏️ Conversão e otimização
+├── requirements.txt          # 📄 Dependências do projeto
+├── model.h5                  # 🤖 Modelo treinado (gerado)
+├── model.tflite              # ⚡ Modelo otimizado (gerado)
+└── README.md                 # 📝 Relatório final do candidato
 ```
 
 ---
