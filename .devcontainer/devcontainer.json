@@ -1,0 +1,23 @@
+{
+    "name": "Pyton Enviroment",
+    "image": "mcr.microsoft.com/devcontainers/python:3.13-bookworm",
+    "features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {} 
+    },
+
+    // Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"streetsidesoftware.code-spell-checker",
+                "ms-python.python"
+			]
+		}
+	},
+
+	"privileged": true,
+	"remoteUser": "root"
+
+}
